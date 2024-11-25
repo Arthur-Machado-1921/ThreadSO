@@ -1,4 +1,4 @@
 all:
-	gcc determinante.c -o det
+	gcc determinante.c -pthread -o det
 	./det
 
